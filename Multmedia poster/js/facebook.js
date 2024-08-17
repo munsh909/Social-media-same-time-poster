@@ -33,7 +33,7 @@ class FacebookService {
 	}
   
 	createPost(content) {
-	  const urlPattern = /(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9]\.[^\s]{2,})/;
+	  const urlPattern = ;
 	  let postContent = content || document.getElementById("publish-textarea").value;
 	  let cleanedMessage = postContent.replace(urlPattern, "").trim();
 	  let foundLink = postContent.match(urlPattern) || [""];
