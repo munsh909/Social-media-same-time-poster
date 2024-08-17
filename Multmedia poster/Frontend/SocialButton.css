@@ -1,0 +1,17 @@
+.social-button.facebook .social-image {
+    border: 2px solid #4267B2;
+  }
+  
+  .social-button.twitter .social-image {
+    border: 2px solid #1DA1F2;
+  }
+  
+  .social-button.instagram .social-image {
+    border: 2px solid #C13584;
+  }
+  
+  .social-button.disabled .social-image {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  

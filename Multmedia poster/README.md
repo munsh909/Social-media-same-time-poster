@@ -1,0 +1,1 @@
+App created with ReactJS. Aims to use the Twitter and Facebook APIs in order to send a post to multiple platforms at once. 
